@@ -1,9 +1,14 @@
-import Informacion from "./components/Informacion"
+import Informacion from "./components/Informacion";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  // aqui vamos a agregar la logica del componente 
+
   return (
-    <section>
-      <h1>Prueba</h1>
+    // aqui va un poquito de logica 
+    // luego va el maquetado del componente 
+    <section className="container my-4">
+      <h1 className="display-3 text-center mb-3">PrimerApp React</h1>
       <Informacion/>
     </section>
   )
